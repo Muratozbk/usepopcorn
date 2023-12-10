@@ -6,7 +6,7 @@ import StarRating from './StarRating';
 
 function Test() {
   const [movieRating, setMovieRating] = useState(0);
-  const defaultTest = 3;
+  const defaultTest = 5;
 
   return (
     <div>

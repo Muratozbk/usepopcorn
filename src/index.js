@@ -3,13 +3,16 @@ import ReactDOM from 'react-dom/client';
 // import StarRating from './StarRating';
 
 import './index.css';
-import App from './App';
+// import App from './App';
+import App from './App-v2';
+import Currency from './Currency';
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <>
+    {/* <App /> */}
     <App />
     {/* <StarRating maxRating={5} messages={['Terrible',
       'Bad', 'Okay', 'Good', 'Amazing']} />
@@ -19,14 +22,4 @@ root.render(
   </>
 );
 
-// function Test() {
-//   const [movieRating, setMovieRating] = useState(0);
-//   const defaultTest = 5;
-//   return (
-//     <div>
-//       <StarRating color='blue' maxRating={10}
-//         onSetRating={setMovieRating} defaultRating={defaultTest} />
-//       <p>This movie was rated {movieRating || defaultTest} stars </p>
-//     </div>
-//   )
-// }
+
